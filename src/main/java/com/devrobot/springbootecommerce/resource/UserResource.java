@@ -44,3 +44,49 @@ public class UserResource {
 	/**
 	 * Gets user.
 	 *
+	 * @param email
+	 * @return user if exists
+	 */
+	@GetMapping(value = "/{username}")
+	public User get(@PathVariable("username") String username) {
+		return userRepository.findById(username).get();
+	}
+	/**
+	 * Persist user.
+	 *
+	 * @param user the user
+	 * @return the user
+	 */
+	@PostMapping(value = "/add")
+	public User persist(@RequestBody final User user) {
+		userRepository.save(user);
+		return userRepository.findById(user.getUsername()).get(); 
+	}
+	/**
+	 * Delete user.
+	 *
+	 * @param email the email
+	 * @return all users
+	 */
+	@DeleteMapping(value = "/delete")
+	public List<User> delete(@PathVariable String username) {
+		userRepository.deleteById(username);
+		return userRepository.findAll();
+	}
+	/**
+	 * Put user.
+	 *
+	 * @param username 	the username
+	 * @param user  the user
+	 * @return all users
+	 */
+	@PutMapping(value = "/{username}/put")
+	public List<User> put(@PathVariable String username, @RequestBody User user) {
+		if (userRepository.existsById(username)) {
+			userRepository.deleteById(username);
+			userRepository.save(user);
+		}
+		
+		return userRepository.findAll();
+	}
+}
