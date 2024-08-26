@@ -148,3 +148,53 @@ public class Product {
 	/**
 	 * Sets the picture 1.
 	 *
+	 * @param picture1 the new picture 1
+	 */
+	public void setPicture1(String picture1) {
+		this.picture1 = picture1;
+	}
+
+	/**
+	 * Gets the picture 2.
+	 *
+	 * @return the picture 2
+	 */
+	public String getPicture2() {
+		return picture2;
+	}
+
+	/**
+	 * Sets the picture 2.
+	 *
+	 * @param picture2 the new picture 2
+	 */
+	public void setPicture2(String picture2) {
+		this.picture2 = picture2;
+	}
+
+	/**
+	 * Gets the picture 3.
+	 *
+	 * @return the picture 3
+	 */
+	public String getPicture3() {
+		return picture3;
+	}
+
+	/**
+	 * Sets the picture 3.
+	 *
+	 * @param picture3 the new picture 3
+	 */
+	public void setPicture3(String picture3) {
+		this.picture3 = picture3;
+	}
+
+	/**
+	 * Gets the price.
+	 *
+	 * @return the price
+	 */
+	public double getPrice() {
+		return price;
+	}
