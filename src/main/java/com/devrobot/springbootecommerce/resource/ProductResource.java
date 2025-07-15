@@ -90,3 +90,4 @@ public class ProductResource {
 		return productRepository.findAll();
 	}
 }
+# fix: add @CrossOrigin to allow React dev server on port 3000
