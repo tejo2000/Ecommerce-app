@@ -90,4 +90,3 @@ public class ProductResource {
 		return productRepository.findAll();
 	}
 }
-# feat: add pagination support to /products endpoint
