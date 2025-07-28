@@ -89,4 +89,3 @@ public class CategoryResource {
 		return categoryRepository.findAll();
 	}
 }
-# fix: null pointer on category delete when products still reference it
