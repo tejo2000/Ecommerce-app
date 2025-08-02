@@ -12,4 +12,3 @@ import com.devrobot.springbootecommerce.model.Product;
  */
 public interface ProductRepository extends JpaRepository<Product, Integer> {
 }
-# feat: add product search by name using JPA query

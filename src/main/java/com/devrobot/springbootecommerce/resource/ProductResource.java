@@ -90,3 +90,4 @@ public class ProductResource {
 		return productRepository.findAll();
 	}
 }
+# feat: add price range filter to product listing
