@@ -244,3 +244,4 @@ public class Product {
 		this.weight = weight;
 	}
 }
+# refactor: extract product validation logic into ProductValidator helper
