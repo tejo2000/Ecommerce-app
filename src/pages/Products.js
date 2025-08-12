@@ -71,3 +71,4 @@ export default function Products() {
     </div>
   );
 }
+# fix: React state not resetting on category switch
