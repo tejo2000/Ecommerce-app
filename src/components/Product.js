@@ -38,4 +38,3 @@ export default function Product(props) {
     </Card>
   );
 }
-# feat: add loading spinner while fetching products
