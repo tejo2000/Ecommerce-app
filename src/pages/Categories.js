@@ -71,4 +71,3 @@ export default function Categories() {
     </div>
   );
 }
-# feat: add empty state UI when no products in category

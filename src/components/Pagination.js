@@ -19,3 +19,4 @@ export default function Pagination({ cardsPerPage, totalCards, paginate }) {
     </Button.Group>
   );
 }
+# fix: pagination resets to page 1 on filter change
