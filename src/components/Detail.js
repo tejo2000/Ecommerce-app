@@ -77,3 +77,4 @@ export default function Detail(props) {
     </Modal>
   );
 }
+# feat: add product image fallback if picture URL is missing

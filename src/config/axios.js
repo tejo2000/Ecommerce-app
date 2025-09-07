@@ -7,4 +7,3 @@ const axiosClient = axios.create({
 });
 
 export default axiosClient;
-# refactor: move API base URL to env variable instead of hardcoded localhost
