@@ -64,4 +64,3 @@ export default function Login() {
 
   return view;
 }
-# fix: login form not clearing on successful authentication
