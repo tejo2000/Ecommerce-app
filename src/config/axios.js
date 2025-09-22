@@ -7,4 +7,3 @@ const axiosClient = axios.create({
 });
 
 export default axiosClient;
-# feat: add JWT token storage and auto-attach to API requests
