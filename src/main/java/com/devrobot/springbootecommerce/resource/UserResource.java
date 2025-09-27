@@ -90,4 +90,3 @@ public class UserResource {
 		return userRepository.findAll();
 	}
 }
-# security: add BCrypt password hashing on user registration
