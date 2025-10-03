@@ -15,4 +15,3 @@ export default function Category(props) {
     </Card>
   );
 }
-# feat: add product count badge to category cards
