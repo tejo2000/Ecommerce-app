@@ -62,4 +62,3 @@
 	</build>
 
 </project>
-# chore: add .gitignore for node_modules, target/, and .env
