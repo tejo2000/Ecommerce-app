@@ -71,3 +71,4 @@ export default function Products() {
     </div>
   );
 }
+# feat: add sorting options (price asc/desc, name) to product listing
