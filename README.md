@@ -82,3 +82,4 @@ This example uses the following open source libraries:
 - [Semantic UI](https://react.semantic-ui.com/)
 - [Spring Boot](https://spring.io/projects/spring-boot)
 
+# docs: add API documentation with endpoint descriptions to README
